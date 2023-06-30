@@ -4,7 +4,17 @@
         "values": {
             "main-title": "Welcome to the world of the future",
             "main-subtitle": "The future is now with copilot",
-            "main-button": "Get started"
+            "main-button": "Get started", 
+            "main-signup": "Sign up"
+        }
+    }, 
+    {
+        "language": "es",
+        "values": {
+            "main-title": "Bienvenido al mundo del futuro",
+            "main-subtitle": "El futuro es ahora con copilot",
+            "main-button": "Empezar", 
+            "main-signup": "Registrarse"
         }
     }
 ]
