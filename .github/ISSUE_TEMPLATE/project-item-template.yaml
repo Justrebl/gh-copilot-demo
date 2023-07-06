@@ -1,0 +1,20 @@
+name: Project Item Template
+description: 'Issue used for non code related tickets : Project Items '
+title: "[Item]: "
+labels: ["Project"]
+assignees:
+  - justrebl
+
+body: 
+  - type: markdown
+    attributes :
+      value: |
+        #Title : 
+        ## Description :
+        ## External Source : 
+  - type: input
+    id: external-source
+    attributes:
+      label : External Source
+      description : Any External source that can help to add more context to the issue
+      placeholder : ex. https://www.github.com
