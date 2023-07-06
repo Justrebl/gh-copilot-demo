@@ -6,12 +6,13 @@ assignees:
   - justrebl
 
 body: 
-  - type: markdown
-    attributes :
-      value: |
-        #Title : 
-        ## Description :
-        ## External Source : 
+  - type: textarea
+    id: what-needs-to-happen
+    attributes:
+      label: What needs to happen?
+      description: Please detail as much as possible the steps you want to take to complete this item.
+      placeholder: ex. I want to create a new project item template as follows
+      value: Here is what need to happen.
   - type: input
     id: external-source
     attributes:
